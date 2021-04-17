@@ -1,0 +1,12 @@
+<resources>
+    <!-- Main Activity -->
+    <string name="app_name">Homework 1</string>
+    <string name="heading">Heading</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sagittis posuere aliquam. Quisque augue est, pretium nec dui at, varius laoreet quam. Morbi scelerisque justo risus, sit amet viverra sem volutpat rutrum. Integer ac scelerisque est. Nullam ut pharetra lorem. Vestibulum et sem laoreet, feugiat nisl eu, tempus augue. Fusce a dictum dui. Aliquam sit amet sem odio. Phasellus nec nisl non arcu euismod semper id sed urna. Proin blandit scelerisque ipsum, in tincidunt mauris volutpat vitae. Mauris nec diam at dui vehicula congue. Sed pharetra, enim at commodo efficitur, magna metus feugiat nulla, non eleifend massa mi eu tortor. Sed diam magna, posuere a luctus eget, tempus nec lacus. Sed fringilla condimentum dui sit amet luctus.</string>
+    <string name="style_1">Style 1</string>
+    <string name="style_2">Style 2</string>
+    <string name="password">Password</string>
+
+    <!-- Accessibility -->
+    <string name="android_head">Android Head</string>
+</resources>

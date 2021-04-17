@@ -1,0 +1,4 @@
+<resources>
+    <attr name="headingTextColor" format="reference|color" />
+    <attr name="headingTextSize" format="reference|dimension" />
+</resources>

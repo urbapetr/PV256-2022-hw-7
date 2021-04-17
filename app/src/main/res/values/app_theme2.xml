@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light">
+        <item name="headingTextColor">#000</item>
+        <item name="headingTextSize">@dimen/text</item>
+    </style>
+
+</resources>
