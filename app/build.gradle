@@ -5,29 +5,26 @@ plugins {
 }
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion "30.0.2"
+    compileSdkVersion 31
+    buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "cz.muni.fi.pv256.hw7"
         minSdkVersion 21
-        targetSdkVersion 30
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     applicationVariants.all { variant ->
         variant.outputs.all { output ->
-            def abi = output.getFilter(com.android.build.OutputFile.ABI)
-            if (abi == null) {
-                abi = "all"
-            }
-            outputFileName = "$project.name-$variant.name-$variant.versionName-${variant.versionCode}-${abi}.apk"
+            outputFileName = "$project.name-$variant.name-$variant.versionName-${variant.versionCode}.apk"
         }
     }
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
         test.java.srcDirs += 'src/test/kotlin'
+        androidTest.java.srcDirs += 'src/androidTest/kotlin'
     }
     buildTypes {
         release {
@@ -52,9 +49,9 @@ android {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    implementation 'androidx.core:core-ktx:1.3.2'
-    implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'androidx.preference:preference-ktx:1.1.1'
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'androidx.preference:preference-ktx:1.2.0'
 }
 
 check.dependsOn 'ktlintCheck', 'lint'

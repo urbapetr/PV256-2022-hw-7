@@ -7,6 +7,7 @@
    * some attributes are not part of style definition, but the layout file
    * edit only `app/src/main/res/layout/activity_main.xml`, `app/src/main/res/values/app_theme1.xml`, `app/src/main/res/values/app_theme2.xml`, `app/src/main/res/values/colors.xml`, and `app/src/main/res/values/dimens.xml`
 5. Proceed with push request as described in [wiki](https://gitlab.fi.muni.cz/grp-pv256/wiki/wikis/home)
+   * don't forget to share it with **xsevci11**, **ext-stefan.krajanec**, **xpanek1**, **xmasa**
 
 ## AppTheme1
 ![theme1](img/theme1.png)

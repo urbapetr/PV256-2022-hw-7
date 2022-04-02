@@ -11,6 +11,7 @@
         android:theme="@style/AppTheme1">
         <activity
             android:name="cz.muni.fi.pv256.hw7.MainActivity"
+            android:exported="true"
             android:windowSoftInputMode="stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
