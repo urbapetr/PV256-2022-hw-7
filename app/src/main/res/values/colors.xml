@@ -4,8 +4,14 @@
     <color name="colorPrimaryDark">#87081B</color>
     <color name="colorAccent">#FBF9FA</color>
 
-    <color name="BackgroundColor">#CA0E2A</color>
+    <color name="Theme1BackgroundColor">#CA0E2A</color>
     <color name="RedButton">#970B20</color>
-    <color name="LineColor">#FFFFFF</color>
+    <color name="WhiteLine">#FFFFFF</color>
+
+    <color name="colorSecondary">#CDBB1F</color>
+    <color name="colorSecondaryDark">#AE9E1A</color>
+
+    <color name="Theme2BackgroundColor">#EAD523</color>
+    <color name="YellowButton">#AE9E1A</color>
 
 </resources>
