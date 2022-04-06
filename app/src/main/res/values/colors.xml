@@ -4,7 +4,8 @@
     <color name="colorPrimaryDark">#87081B</color>
     <color name="colorAccent">#FBF9FA</color>
 
-    <color name="BackgroundColor">#C3233B</color>
+    <color name="BackgroundColor">#CA0E2A</color>
     <color name="RedButton">#970B20</color>
+    <color name="LineColor">#FFFFFF</color>
 
 </resources>

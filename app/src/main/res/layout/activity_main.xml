@@ -18,6 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/Widget.Heading"
+            android:textAlignment="center"
             android:text="@string/heading" />
 
         <TextView
@@ -31,6 +32,7 @@
             android:inputType="textPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/LineColor"
             android:hint="@string/password"/>
 
         <LinearLayout
