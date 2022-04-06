@@ -2,14 +2,17 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+        <!-- Customize your theme here.-->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
 
-        <item name="headingTextColor">#fff</item>
+        <item name="headingTextColor">#FFFFFF</item>
         <item name="headingTextSize">@dimen/text</item>
         <item name="android:buttonStyle">@style/ButtonColor</item>
+        <item name="android:windowBackground">@color/BackgroundColor</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:colorButtonNormal">@color/RedButton</item>
     </style>
 
     <style name="ButtonColor" parent="Widget.AppCompat.Button">
