@@ -10,9 +10,10 @@
         <item name="headingTextColor">#FFFFFF</item>
         <item name="headingTextSize">@dimen/text</item>
         <item name="android:buttonStyle">@style/ButtonColor</item>
-        <item name="android:windowBackground">@color/BackgroundColor</item>
-        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:windowBackground">@color/Theme1BackgroundColor</item>
+        <item name="android:textColor">#80FFFFFF</item>
         <item name="android:colorButtonNormal">@color/RedButton</item>
+
     </style>
 
     <style name="ButtonColor" parent="Widget.AppCompat.Button">
